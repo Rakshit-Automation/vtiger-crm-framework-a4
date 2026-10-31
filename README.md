@@ -1,7 +1,9 @@
 🚀 vtiger CRM - Enterprise Automation Framework
+
 A high-performance Industrial-Grade Automation Framework built on the Page Object Model (POM) and Data-Driven approach. Engineered for rapid, reliable, and scalable testing of the vtiger CRM application.
 
 🏗️ Project Architecture
+
 The framework follows a modular structure for maximum maintainability:
 
 vtiger-crm-framework-a13
@@ -37,7 +39,7 @@ Java: JDK 11 or higher.
 Maven: Configured in System Environment Variables.
 2. Setup
 # Clone the repository
-git clone https://github.com/AutomationWithPiyushhh/crm-automation-framework-a13.git
+git clone https://github.com/Rakshit-Automation/vtiger-crm-framework-a4.git
 
 # Navigate to project directory
 cd vtiger-crm-framework-a4
