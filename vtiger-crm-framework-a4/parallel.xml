@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite parallel="tests" thread-count="3" name="BatchSuite">
+
+	<test name="BatchTest1">
+
+		<classes>
+			<class name="typesOfExecution.LoginTest" />
+			<class name="typesOfExecution.LogoutTest" />
+			<class name="typesOfExecution.SignUPTest" />
+		</classes>
+
+	</test>
+	<test name="BatchTest2">
+		<classes>
+
+			<class name="typesOfExecution.LogoutTest" />
+			<class name="typesOfExecution.SignUPTest" />
+			<class name="typesOfExecution.LoginTest" />
+	
+
+		</classes>
+
+	</test>
+
+	<test name="BatchTest3">
+		<classes>
+			<class name="typesOfExecution.SignUPTest" />
+			<class name="typesOfExecution.LoginTest" />
+			
+			<class name="typesOfExecution.LogoutTest" />
+		</classes>
+
+	</test>
+
+
+</suite>

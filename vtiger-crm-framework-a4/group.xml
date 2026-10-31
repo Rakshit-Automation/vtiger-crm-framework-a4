@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="BatchSuite">
+
+	<groups>
+	<run>
+	 <include name="Important"></include>
+	
+	</run>
+	
+	</groups>
+
+    <test name="BatchTest">
+
+        <classes>
+            <class name="typesOfExecution.LoginTest"/>
+            <class name="typesOfExecution.LogoutTest"/>
+            <class name="typesOfExecution.SignUPTest"/>
+        </classes>
+
+    </test>
+
+</suite>
