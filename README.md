@@ -60,5 +60,5 @@ The report includes step-by-step logs, execution status, and embedded failure sc
 👨‍💻 Author
 Rakshit Tiwari
 
-GitHub: @AutomationWithPiyushhh
+GitHub: @Rakshit-Automation
 Role: QA Automation Engineer
